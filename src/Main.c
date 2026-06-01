@@ -27,7 +27,7 @@ void Update(AlxWindow* w){
     
     Clear(BLACK);
 
-    RGA_Set(Time_Nano());
+    Random_Set(Time_Nano());
 
     PerlinNoise_Offset_Set(Octaves);
     PerlinNoise_Persistance_Set(Persistance);
